@@ -9,7 +9,7 @@ Calculator calculator = new Calculator(this)
 pipeline {
     agent any
     environment {
-        APP_NAME = ${pipelineparams.appName} //this value should be coming form mirco services
+        APP_NAME = "${pipelineparams.appName}" //this value should be coming form mirco services
     }
     stages {
         stage ('addtionStage') {
