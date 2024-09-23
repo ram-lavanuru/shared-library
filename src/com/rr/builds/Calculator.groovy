@@ -3,7 +3,7 @@ package com.rr.builds;
 
 class Calculator {
     def jenkins
-    Calucalator (jenkins) {
+    Calculator (jenkins) {
         this.jenkins = jenkins
     }
 
