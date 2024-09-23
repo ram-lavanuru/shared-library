@@ -6,7 +6,7 @@ def call(Map pipelineparams){
     //an instance of the class called caluculator is created
 Calculator calculator = new Calculator(this)
 
-pipelien {
+pipeline {
     agent any
     environment {
         APP_NAME = ${pipelineparams.appName} //this value should be coming form mirco services
